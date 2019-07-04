@@ -103,6 +103,7 @@ public class scenario1reg {
 	@Then("verify the signup Success message")
 	public void verify_the_signup_Success_message() {
 	    System.out.println("success");
+		driver.close
 	}
 
 
