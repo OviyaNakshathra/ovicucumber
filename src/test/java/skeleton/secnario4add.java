@@ -61,9 +61,11 @@ public class secnario4add {
 		WebElement cart=driver.findElement(By.xpath("//*[@id='header']/div[1]/div/div/div[2]/div/a[2]"));
 		cart.click();
 		if(driver.getTitle().equals("View cart"))
-		  Assert.assertFalse(false);
-		else
-			Assert.assertTrue(true);
+		{ Assert.assertFalse(false);}
+		else{
+			Assert.assertTrue(true);}
+		driver.close();
+		
 	}
 
 
