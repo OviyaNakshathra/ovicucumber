@@ -49,7 +49,7 @@ public class scenario2login {
 	   title=driver.getTitle();
 	  
 	   Assert.assertEquals(title,"Home");
-		driver.close
+		driver.close();
 	
 	}
 
