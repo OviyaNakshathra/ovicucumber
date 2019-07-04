@@ -63,7 +63,7 @@ public class scenario3search {
 	public void click_on_the_find_button() {
 		WebElement find=driver.findElement(By.xpath("/html/body/div[1]/form/input"));
 		find.click();
-		driver.close
+		driver.close();
 	}
 
 
