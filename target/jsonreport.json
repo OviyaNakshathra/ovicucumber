@@ -1,0 +1,95 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 10,
+        "name": "login with valid user conditions",
+        "description": "",
+        "id": "login-test-in-testme;login-with-valid-user-conditions;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15424012000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user opens the login page in newtours application",
+            "match": {
+              "location": "scenario2login.user_opens_the_login_page_in_newtours_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 162320400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enters the un as \"Lalitha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lalitha\"",
+                  "offset": 22
+                }
+              ],
+              "location": "scenario2login.user_enters_the_un_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 162100800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters the pwd as \"Password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Password123\"",
+                  "offset": 23
+                }
+              ],
+              "location": "scenario2login.user_enters_the_pwd_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 444615700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click Submit button",
+            "match": {
+              "location": "scenario2login.click_Submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13174300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify login success",
+            "match": {
+              "location": "scenario2login.verify_login_success()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "login test in testme",
+    "description": "",
+    "id": "login-test-in-testme",
+    "keyword": "Feature",
+    "uri": "src/test/resources/skeleton/scenario2login.feature",
+    "tags": []
+  }
+]
